@@ -22,3 +22,7 @@ def health32():
 @app.post("/message")
 def post_message(body: MessageRequest):
     return {"received": body.message}
+
+@app.post("/messageu9u8i")
+def post_messaguiuie(body: MessageRequest):
+    return {"received": body.message}
