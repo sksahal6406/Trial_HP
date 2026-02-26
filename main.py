@@ -19,7 +19,7 @@ def health2():
 @app.get("/trial2")
 def health32():
     return {"status": "ok"}
-@app.post("/message")
+@app.post("/messagdsfdsfe")
 def post_message(body: MessageRequest):
     return {"received": body.message}
 
