@@ -12,6 +12,9 @@ class MessageRequest(BaseModel):
 def health_check():
     return {"status": "ok"}
 
+@app.get("/trial")
+def health_checktrial():
+    return {"status": "ok"}
 
 @app.post("/message")
 def post_message(body: MessageRequest):
