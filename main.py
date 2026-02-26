@@ -15,9 +15,9 @@ def health_check():
 @app.get("/trial")
 def health2():
     return {"status": "ok"}
-    
-@app.get("/trial3")
-def health3():
+
+@app.get("/trial2")
+def health32():
     return {"status": "ok"}
 @app.post("/message")
 def post_message(body: MessageRequest):
