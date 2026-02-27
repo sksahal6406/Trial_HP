@@ -8,13 +8,7 @@ class MessageRequest(BaseModel):
     message: str
 
 
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
 
-@app.get("/trial")
-def health2():
-    return {"status": "ok"}
 
 
 @app.post("/message")
